@@ -1,0 +1,137 @@
+/* Background image for the entire page */
+body {
+    background-image: url('../img/gifff.gif'); /* Path to your background image */
+    background-size: cover; /* Ensure the image covers the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Fix the image in place when scrolling */
+    background-color: #f0f0f0; /* Fallback background color */
+    color: #333; /* Default text color */
+}
+
+/* Adjusting the padding for the main section to prevent overlap with the header */
+.works-main {
+    position: relative; /* Required for overlay positioning */
+    padding-top: 100px; /* Increase padding to avoid overlap with the header */
+}
+
+/* Background image with overlay */
+.works-main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the overlay behind the content */
+}
+
+/* General styles for the cards container */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center cards horizontally */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* To ensure the cards are arranged in two rows */
+.card {
+    background-color: hsla(200, 50%, 50%, 0.5); /* Blue color with 50% opacity */    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px; /* Fixed width for the cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effects */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Styles for the card image */
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Styles for the card content */
+.card-content {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.card-description {
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.highlight {
+    background-color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Style for the card link to cover the entire card */
+.card-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+}
+
+/* Modal styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+}
+
+.modal-content .btn {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.modal-content .btn:hover {
+    background-color: #0056b3;
+}
