@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Optional: Change the background color of the body to better visualize the transparent header */
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    overflow: hidden;
+    animation: fadeIn 1s ease-in-out;
+    position: fixed; /* Make the header stay at the top of the page */
+    width: 100%; /* Make the header span the full width of the page */
+    z-index: 1000; /* Ensure the header is above other content */
+    display: flex;
+    justify-content: center; /* Center the links horizontally */
+}
+
+.header a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 0 10px; /* Add some space between the links */
+}
+
+.header a:hover {
+    background-color: #ffffff;
+    color: black;
+    transform: scale(1.1);
+}
+
+.header a.active {
+    background-color: #0080ff;
+    color: white;
+}
+
+.header a.github-highlight {
+    background-color: #0080ff; /* GitHub's dark gray color */
+    color: white;
+    border: 2px solid #f2f2f2; /* Add a white border */
+    border-radius: 4px; /* Add some border radius for rounded corners */
+    font-weight: bold; /* Make the text bold */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
