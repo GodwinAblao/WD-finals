@@ -1,0 +1,109 @@
+/* contact.css */
+
+body {
+    background: url('../img/giffff.gif') no-repeat center center fixed; /* Update the path */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.intro {
+    text-align: center;
+    margin: 20px 0;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-out forwards;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #fff; /* Adjust text color for better visibility */
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #ddd; /* Adjust text color for better visibility */
+}
+
+.contact-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 200px); /* Adjust for the header and intro section */
+    padding: 20px;
+    opacity: 0;
+    animation: fadeIn 2s ease-out forwards;
+}
+
+.contact-section {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-out forwards;
+}
+
+.contact-section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form .submit-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0080ff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form .submit-btn:hover {
+    background-color: #ff0000;
+}
+
+/* Social Icons */
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icon {
+    font-size: 2em; /* Adjusted size for better visibility */
+    color: #555;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #007BFF; /* Change this color to match your design */
+}
+
+/* Animations */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}

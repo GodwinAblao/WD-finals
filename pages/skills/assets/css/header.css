@@ -38,7 +38,7 @@ body {
 }
 
 .header a.github-highlight {
-    background-color: #0080ff; /* GitHub's dark gray color */
+    background-color: transparent; /* GitHub's dark gray color */
     color: white;
     border: 2px solid #f2f2f2; /* Add a white border */
     border-radius: 4px; /* Add some border radius for rounded corners */
