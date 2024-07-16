@@ -133,12 +133,17 @@ WD-ProjectName
 
 
 ## Deployment Instruction
-|-|-|-|
-|1. Prepare Your Website|Test and optimize files|-|
-|2. Choose a Platform|Pick between GitHub Pages, Netlify, or Vercel|-|
-|3. Upload Your Files|Upload files to the chosen platform|GitHub Pages: Commit & Push <br> Netlify/Vercel: Deploy from GitHub|
-|4. Verify Your Deployment|Check your site and review deployment logs|GitHub Pages: Actions tab <br> Netlify: Deploys section <br> Vercel: Deployments page|
-|5. Update and Maintain|Update files as needed and review site periodically|GitHub Pages: Commit & Push <br> Netlify/Vercel: Automatic updates|
+- 1. Navigate to github repository
+- 2. Click "Settings"
+- 3. Click "Pages"
+- 4. Click "Deploy from a branch"
+- 5. Click from selection "Github Actions"
+- 6. Find "Static HTML" below click
+- 7. Click "Commit changes..."
+- 8. Click "Commit changes"
+- 9. Click "Actions"
+- 10. Click "Create static.yml"
+- 11. Click "The link on deploy"
 
 
 
@@ -165,6 +170,8 @@ Links to my website and project repositories:
 | YouTube | Get some idea| https://www.youtube.com/results?search_query=website+portfolio+html+css+javascript |
 | Font awesome| Get some idea | https://fontawesome.com/ |
 | gif blackbackground | Get some idea | https://www.google.com/search?q=gif+blackbackground&rlz=1C1CHZN_enPH1076PH1076&oq=gif&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7Mg4IARBFGCcYOxiABBiKBTIMCAIQRRg5GLEDGIAEMgwIAxAjGCcYgAQYigUyBggEEEUYPDIGCAUQRRg8MgYIBhBFGD0yBggHEEUYPdIBCDQ5MzVqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8 |
+| Deploy a website| Get some idea | https://scribehow.com/shared/Deploy_a_website_using_GitHub_Pages__UyFSCsflSte7l0IhcvFFdg?referrer=documents |
+
 
 
 ## Wakatime
