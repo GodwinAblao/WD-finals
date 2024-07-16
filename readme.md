@@ -5,8 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/GodwinAblao">
-
-    <img src="./assets/img/logo.jpg" alt="GA" width="130" height="100">
+    <img src="./assets/img/logo.jpg" width="130" height="100">
   </a>
 
   <h3 align="center">Final Project</h3>
@@ -115,14 +114,14 @@ WD-ProjectName
 ```
 ## Project repositories
 Links to my website and project repositories:
-  https://github.com/GodwinAblao
-  https://github.com/GodwinAblao/WD---godwin1
-  https://github.com/GodwinAblao/WD-seatwork2
-  https://github.com/GodwinAblao/WD-MIDTERME
-  https://github.com/GodwinAblao/WD-seatwork3
-  https://github.com/GodwinAblao/WD-HandsOn2
-  https://github.com/GodwinAblao/WD-seatwork4
-  https://github.com/GodwinAblao/WD-finals
+- https://github.com/GodwinAblao
+- https://github.com/GodwinAblao/WD---godwin1
+- https://github.com/GodwinAblao/WD-seatwork2
+- https://github.com/GodwinAblao/WD-MIDTERME
+- https://github.com/GodwinAblao/WD-seatwork3
+- https://github.com/GodwinAblao/WD-HandsOn2
+- https://github.com/GodwinAblao/WD-seatwork4
+- https://github.com/GodwinAblao/WD-finals
 
 
 ## Resources
