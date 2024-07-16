@@ -1,0 +1,117 @@
+/* Background image for the entire page */
+body {
+    background-image: url('../img/gifffff.gif'); /* Path to your background image */
+    background-size: cover; /* Ensure the image covers the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Fix the image in place when scrolling */
+    background-color: #f0f0f0; /* Fallback background color */
+    color: #333; /* Default text color */
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 80px; /* Adjust this value based on your header height */
+}
+
+
+/* Keyframes for slide-in animation */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Apply the animation to the about-me-container */
+.about-me-container {
+    max-width: 800px;
+    width: 90%;
+    background-color: hsla(200, 50%, 50%, 0.5); /* Blue color with 50% opacity */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 2rem;
+    margin-top: 20px;
+    animation: slideIn 1s ease-out;
+}
+
+/* Keyframes for pulse animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Apply the animation to the h1 */
+h1 {
+    color: #ffffff;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+    animation: pulse 1.5s infinite;
+}
+
+h1 {
+    color: #ffffff;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+}
+
+h2 {
+    color: #ffffff;
+    margin-top: 2rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+li::before {
+    content: "•";
+    color: #3498db;
+    position: absolute;
+    left: 0;
+}
+
+/* Hover effect for list items */
+li:hover {
+    color: #3498db;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 600px) {
+    .about-me-container {
+        width: 95%;
+        padding: 1rem;
+    }
+}
+
