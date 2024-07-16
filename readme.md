@@ -4,23 +4,22 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+  <a href="https://github.com/GodwinAblao">
+
+    <img src="./assets/img/logo.jpg" alt="GA" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+
+  <h3 align="center">Final Project</h3>
 </div>
-<!-- TODO: Make a short description -->
+
 <div align="center">
-  Short Description. (Optional)
+  A portfolio showcasing my previous projects along with my skills and experience in Web Development, reflecting my ability to create innovative web solutions and achieve successful outcomes.
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+
+![](https://visit-counter.vercel.app/counter.png?page=GodwinAblao/WD-finals)
 
 ---
 
@@ -55,25 +54,28 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
+
 <!-- The following are just sample -->
-Description of the project in details.
+A portfolio showcasing my previous projects along with my skills and experience in Web Development, reflecting my ability to create innovative web solutions and achieve successful outcomes.
 
 Guiding Question:
 - What is the project
+  -This project is a personal portfolio website designed to showcase my Web Development skills and past projects. It features a variety of web development components, including interactive elements, dynamic content displays, and a structured layout that highlights my technical expertise. The site includes sections for my resume, project showcases, and a gallery of work, all crafted to demonstrate my proficiency in web technologies.
 - Whats the purpose
-- What are key components
-- What technology used and how it is used
+  -The purpose of this portfolio website is to provide a professional platform where potential clients, employers, or collaborators can explore my skills and past achievements. It serves as a tool to present my technical abilities, share my work experiences, and connect with others in the industry. Through this site, I aim to make a strong impression and open up opportunities for future projects and career growth.
 
 ### Key Components
-<!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Home page
+- About Me
+- Education
+- Previous works
+- Contact
+- Hover effects
+- Resume
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
@@ -111,6 +113,17 @@ WD-ProjectName
 └─ index.html
 └─ readme.md
 ```
+## Project repositories
+Links to my website and project repositories:
+  https://github.com/GodwinAblao
+  https://github.com/GodwinAblao/WD---godwin1
+  https://github.com/GodwinAblao/WD-seatwork2
+  https://github.com/GodwinAblao/WD-MIDTERME
+  https://github.com/GodwinAblao/WD-seatwork3
+  https://github.com/GodwinAblao/WD-HandsOn2
+  https://github.com/GodwinAblao/WD-seatwork4
+  https://github.com/GodwinAblao/WD-finals
+
 
 ## Resources
 
