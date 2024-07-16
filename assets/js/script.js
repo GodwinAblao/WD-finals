@@ -1,7 +1,7 @@
 // script.js
 
 document.addEventListener('DOMContentLoaded', () => {
-    const texts = ["I am a programmer", "I am a Seloso", "I am a UI/UX designer"];
+    const texts = ["I am a programmer", "I am a UI/UX designer"];
     const animatedText = document.querySelector('.animated-text');
     let index = 0;
     let letterIndex = 0;
