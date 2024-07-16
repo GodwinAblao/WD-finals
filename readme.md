@@ -41,10 +41,22 @@
       </ol>
     </li>
     <li>
+      <a href="File-Structure-Explanation">File Structure Explanation</a>
+    </li>
+    <li>
       <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
     </li>
     <li>
+      <a href="#Deployment-Instruction">Deployment Instruction</a>
+    </li>
+    <li>
+      <a href="#Project-repositories">Project repositories</a>
+    </li>
+    <li>
       <a href="#resources">Resources</a>
+    </li>
+    <li>
+      <a href="#Wakatime">Wakatime</a>
     </li>
   </ol>
 </details>
@@ -79,6 +91,12 @@ Guiding Question:
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
+
+## File Structure Explanation
+
+- The file structure of this project consists of the following components: assets, pages, index.html, and README.md. Inside the assets folder, there css, docs, img, js subfolders. The pages folder contains four pages: about-me, education, previous-works, and contact. Each of these pages has its own assets folder that also contains css, img, js and an index.html file.
+
+
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
 2. Do not rename any .html files; always use `index.html` as the filename.
@@ -112,7 +130,20 @@ WD-ProjectName
 └─ index.html
 └─ readme.md
 ```
+
+
+## Deployment Instruction
+|-|-|-|
+|1. Prepare Your Website|Test and optimize files|-|
+|2. Choose a Platform|Pick between GitHub Pages, Netlify, or Vercel|-|
+|3. Upload Your Files|Upload files to the chosen platform|GitHub Pages: Commit & Push <br> Netlify/Vercel: Deploy from GitHub|
+|4. Verify Your Deployment|Check your site and review deployment logs|GitHub Pages: Actions tab <br> Netlify: Deploys section <br> Vercel: Deployments page|
+|5. Update and Maintain|Update files as needed and review site periodically|GitHub Pages: Commit & Push <br> Netlify/Vercel: Automatic updates|
+
+
+
 ## Project repositories
+
 Links to my website and project repositories:
 - https://github.com/GodwinAblao
 - https://github.com/GodwinAblao/WD---godwin1
@@ -126,7 +157,16 @@ Links to my website and project repositories:
 
 ## Resources
 
-<!-- TODO: Add References -->
+
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Github | Get some idea | https://github.com/search?q=awd-landing+page&type=repositories |
+| Tiktok | Get some idea | https://www.tiktok.com/search?lang=en&q=portfolio%20website&t=1721103186603 |
+| YouTube | Get some idea| https://www.youtube.com/results?search_query=website+portfolio+html+css+javascript |
+| Font awesome| Get some idea | https://fontawesome.com/ |
+| gif blackbackground | Get some idea | https://www.google.com/search?q=gif+blackbackground&rlz=1C1CHZN_enPH1076PH1076&oq=gif&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7Mg4IARBFGCcYOxiABBiKBTIMCAIQRRg5GLEDGIAEMgwIAxAjGCcYgAQYigUyBggEEEUYPDIGCAUQRRg8MgYIBhBFGD0yBggHEEUYPdIBCDQ5MzVqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8 |
+
+
+## Wakatime
+https://wakatime.com/projects/WD-finals
+
